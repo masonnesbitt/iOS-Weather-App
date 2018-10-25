@@ -7,8 +7,13 @@
 //
 
 import Foundation
+import Alamofire
+import SwiftyJSON
+
 
 struct APIKeys {
-    let darkSkyKey = " "
-    let googleKey = " "
+    let darkSkyKey = "eaa29835ef76d87aeedeace2178f3ce8"
+    let googleKey = "AIzaSyAguRJsvwhmb1z3RKFODQb9x9u_ubX0M5g"
 }
+
+
