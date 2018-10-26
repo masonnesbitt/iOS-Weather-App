@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		C71A6CFE9BF70409B3F82D05 /* Pods_iOS_Weather_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148CB8C9F13EF2E2D4CA9418 /* Pods_iOS_Weather_App.framework */; };
 		DD01578B218210220079BC1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD01578A218210220079BC1E /* AppDelegate.swift */; };
-		DD01578D218210220079BC1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD01578C218210220079BC1E /* ViewController.swift */; };
+		DD01578D218210220079BC1E /* WeatherDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD01578C218210220079BC1E /* WeatherDisplayViewController.swift */; };
 		DD015790218210220079BC1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD01578E218210220079BC1E /* Main.storyboard */; };
 		DD015792218210240079BC1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD015791218210240079BC1E /* Assets.xcassets */; };
 		DD015795218210240079BC1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD015793218210240079BC1E /* LaunchScreen.storyboard */; };
 		DD0157A1218236CF0079BC1E /* API Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0157A0218236CF0079BC1E /* API Keys.swift */; };
+		DDC485702183890D0072BEA3 /* LocationSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC4856F2183890D0072BEA3 /* LocationSelectorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,12 +22,13 @@
 		148CB8C9F13EF2E2D4CA9418 /* Pods_iOS_Weather_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Weather_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD015787218210220079BC1E /* iOS Weather App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Weather App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD01578A218210220079BC1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD01578C218210220079BC1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD01578C218210220079BC1E /* WeatherDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDisplayViewController.swift; sourceTree = "<group>"; };
 		DD01578F218210220079BC1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD015791218210240079BC1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD015794218210240079BC1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD015796218210240079BC1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD0157A0218236CF0079BC1E /* API Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API Keys.swift"; sourceTree = "<group>"; };
+		DDC4856F2183890D0072BEA3 /* LocationSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSelectorViewController.swift; sourceTree = "<group>"; };
 		FECBD4C920CCD360BC69DEBE /* Pods-iOS Weather App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Weather App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Weather App/Pods-iOS Weather App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,12 +83,13 @@
 			isa = PBXGroup;
 			children = (
 				DD01578A218210220079BC1E /* AppDelegate.swift */,
-				DD01578C218210220079BC1E /* ViewController.swift */,
+				DD01578C218210220079BC1E /* WeatherDisplayViewController.swift */,
 				DD0157A0218236CF0079BC1E /* API Keys.swift */,
 				DD01578E218210220079BC1E /* Main.storyboard */,
 				DD015791218210240079BC1E /* Assets.xcassets */,
 				DD015793218210240079BC1E /* LaunchScreen.storyboard */,
 				DD015796218210240079BC1E /* Info.plist */,
+				DDC4856F2183890D0072BEA3 /* LocationSelectorViewController.swift */,
 			);
 			path = "iOS Weather App";
 			sourceTree = "<group>";
@@ -205,7 +208,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD01578D218210220079BC1E /* ViewController.swift in Sources */,
+				DDC485702183890D0072BEA3 /* LocationSelectorViewController.swift in Sources */,
+				DD01578D218210220079BC1E /* WeatherDisplayViewController.swift in Sources */,
 				DD0157A1218236CF0079BC1E /* API Keys.swift in Sources */,
 				DD01578B218210220079BC1E /* AppDelegate.swift in Sources */,
 			);
