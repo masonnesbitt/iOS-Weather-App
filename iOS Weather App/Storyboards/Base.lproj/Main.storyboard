@@ -119,13 +119,14 @@
         <!--Change Location-->
         <scene sceneID="6Js-ml-MhO">
             <objects>
+                <exit id="fSN-F5-34n" userLabel="Exit" sceneMemberID="exit"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JT8-Ku-y0L" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="Change Location" title="Change Location" id="cTL-DZ-x4a" customClass="LocationSelectorViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6jg-h2-Z4z">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="BCG-8b-5Rm">
+                            <searchBar contentMode="redraw" text="" translatesAutoresizingMaskIntoConstraints="NO" id="BCG-8b-5Rm">
                                 <rect key="frame" x="0.0" y="116" width="375" height="56"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
@@ -138,6 +139,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="w6Y-dM-dke"/>
                     </view>
+                    <connections>
+                        <segue destination="fSN-F5-34n" kind="unwind" identifier="switchScreen" unwindAction="unwindToVC1WithSegue:" id="f32-qK-3c4"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="1678" y="27"/>
